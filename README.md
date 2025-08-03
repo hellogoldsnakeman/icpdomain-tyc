@@ -1,2 +1,2 @@
-# icpdomain
+# icpdomain-tyc
 通过python自动化爬取目标资产在天眼查上的备案域名，无需使用代理地址池
