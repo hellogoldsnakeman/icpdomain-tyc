@@ -127,8 +127,8 @@ def get_icpdomain(company_name):
 
 
 if __name__ == "__main__":
-    # 配置Selenium WebDriver，替换为你的ChromeDriver路径
-    service = Service('/usr/local/bin/chromedriver')
+    # 配置Selenium WebDriver，以下两个service路径均需替换为你的ChromeDriver实际路径
+    service = Service('/usr/local/bin/chromedriver') 
     options = webdriver.ChromeOptions()
     options.add_argument('--disable-gpu')  # 禁用GPU加速，提升兼容性
     options.add_argument('--no-sandbox')  # 针对Linux系统
